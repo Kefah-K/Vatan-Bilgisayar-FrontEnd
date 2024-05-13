@@ -1,0 +1,505 @@
+<html>
+    <head>
+        <title>VATAN Bilgisayar</title>
+        
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer"
+        />
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="css/style.css" rel="stylesheet" type="text/css" >
+        
+    </head>
+    <body>
+        <!--Navbar-->
+        <nav class="navbar">
+            <div class="container ">
+                <!-- First row for links -->
+                <div class="row links">
+                    <div class=" col-lg-12 justify-content-center links">
+                        <ul class="navbar nav custom-center-links justify-content-center ulll links">
+                            <li class="nav-item">
+                                <a href="#" class="nav-link link1 active">Web'e Özel</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#" class="nav-link link1">Yeni</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#" class="nav-link link1">Hazır Sistem</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#" class="nav-link link2">PC Toplama</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#" class="nav-link link2">Outlet</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#" class="nav-link link2">Sipariş Takibi</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#" class="nav-link link2">İade</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#" class="nav-link link2">Mağazalar</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#" class="nav-link link2">Bize Ulaşın</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#" class="nav-link link2">Gaming</a>
+                            </li>
+                        </ul>
+                    </div>
+            
+                
+                
+                    <span class="material-symbols-outlined menuu " data-bs-target="#myOffcanvas" data-bs-toggle="offcanvas">
+                        menu
+                        </span>
+                    <!--<input type="checkbox" id="chk1">
+                <div class="menu">
+                    <label for="chk1">
+                        <i class="fa-solid fa-bars"></i>
+                    </label>
+                </div> -->
+                
+                <!-- Second row for the logo and search bar -->
+                        <div class="col-lg-3 ">
+                            <div class="navbar-header mx-auto">
+                                <a class="navbar-brand" href="#"><img src="img/vatan40.webp" class="img-responsive logo"></a>
+                            </div>
+                        </div>
+                        <div class="col-lg-5 col-md-11 col-11 mt-4 mx-auto inputt">
+                                    <div class="input-group input1 mx-auto">
+                                        <input id="navbar-search-input" class="form-control" type="text" name="search" autocomplete="off" enterkeyhint="search" data-searchurl="/Partial/Search" placeholder="Aramak istediğiniz ürünü yazın">
+                                        <div class="input-group-append">
+                                            <button class="search__button btn btn1 ">
+                                                <span class="material-symbols-outlined">search</span>
+                                            </button>
+                                        </div>
+                                        
+                                    </div>
+                        </div>
+                        <div class="col-lg-4 col-md-12 col-12 but text-end mt-4 mb-3 ">
+                            <div class="col-lg div-b mx-auto dnone"><a href="login.html"><button type="button" class="btn btn-primary but1"><i class="fa-solid fa-user"></i>   GİRİŞYAP</button></a></div>
+                            <div class="col-lg div-b mx-auto "><a href="basket.html"><button type="button" class="btn btn-primary but1"><i class="fa-solid fa-cart-shopping"></i>   SEPETİM</button></a></div>
+                        </div>
+
+                        <div class="offcanvas offcanvas-start " id="myOffcanvas" >
+                            <div class="offcanvas-header">
+                                <div class="lo"><a href="login.html"><button type="button" class="btn"><i class="fa-solid fa-user"></i>   GİRİŞYAP</button></a></div>
+                            
+                                <button type="button" class="btn-close" data-bs-dismiss="offcanvas"></button>
+                            </div>
+                            <div class=" container-fluid div1"></div>
+                            <div class="offcanvas-body">
+                                <ul class="off">
+                                    <li class="nav-item">
+                                        <a href="#" class="nav-link active">Web'e Özel</a>
+                                    </li>
+                                
+                                    <li class="nav-item">
+                                        <a href="#" class="nav-link">Yeni</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a href="#" class="nav-link">Hazır Sistem</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a href="#" class="nav-link">PC Toplama</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a href="#" class="nav-link">Outlet</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a href="#" class="nav-link">Sipariş Takibi</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a href="#" class="nav-link">İade</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a href="#" class="nav-link">Mağazalar</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a href="#" class="nav-link">Bize Ulaşın</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a href="#" class="nav-link">Gaming</a>
+                                    </li>
+                                    <li><a href="#" class="nav-link">Telefon</a></li>
+                                    <li><a href="#" class="nav-link">Bilgisayar</a></li>
+                                    <li><a href="#" class="nav-link">Tv, Ev Elektroniği</a></li>
+                                    <li><a href="#" class="nav-link">Bilgisayar Parçaları</a></li>
+                                    <li><a href="#" class="nav-link">Foto, Kamera</a></li>
+                                    <li><a href="#" class="nav-link">Ofis, Kırtasiye</a></li>
+                                    <li><a href="#" class="nav-link">Aksesuar</a></li>
+                                    <li><a href="#" class="nav-link"> Oyun, Hobi</a></li>
+                                    <li><a href="#" class="nav-link">Ev, Mutfak</a></li>
+                                    <li><a href="#" class="nav-link">Kişisel Bakım</a></li>
+                                    <li><a href="#" class="nav-link">Soğutma,Isıtma</a></li>
+                                </ul>
+                            </div>
+                           
+                        </div> 
+                </div>
+            </div>
+           
+        </nav>
+
+                <div class="section0 container-fluid div1"></div>
+
+                <section class="section1">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-sm-12">
+                                <ul class="ul1 ">
+                                    <li class="dropdown"><a href="#" class="a1">Telefon</a>
+                                        <div class="dropdown-content"><div class="column"><a href="#">Item 1</a>
+                                            <a href="#">Item 2</a>
+                                            <a href="#">Item 3</a>
+                                            <a href="#">Item 4</a></div>
+                                        <div class="column"><a href="#">Item 1</a>
+                                            <a href="#">Item 2</a>
+                                            <a href="#">Item 3</a>
+                                            <a href="#">Item 4</a></div>
+                                        <div class="column"><a href="#">Item 1</a>
+                                            <a href="#">Item 2</a>
+                                            <a href="#">Item 3</a>
+                                            <a href="#">Item 4</a></div>
+                                        <div class="column"><img src="img/telefon.webp"></div>    
+                                    </div></li>
+                                    <li><a href="#" class="a1">Bilgisayar</a></li>
+                                    <li><a href="#" class="a1">Tv, Ev Elektroniği</a></li>
+                                    <li><a href="#" class="a1">Bilgisayar Parçaları</a></li>
+                                    <li><a href="#" class="a1">Foto, Kamera</a></li>
+                                    <li><a href="#" class="a1">Ofis, Kırtasiye</a></li>
+                                    <li><a href="#" class="a1">Aksesuar</a></li>
+                                    <li><a href="#" class="a1"> Oyun, Hobi</a></li>
+                                    <li><a href="#" class="a1">Ev, Mutfak</a></li>
+                                    <li><a href="#" class="a1">Kişisel Bakım</a></li>
+                                    <li><a href="#" class="a1">Soğutma,Isıtma</a></li>
+                                    
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <div class="container-fluid div1"></div>
+                
+                <!--Log in-->
+                <section class="login1">
+                    <div class="container">
+                        <div class="row">
+                            <div class=" col-lg-5 col-md-8 col-10 mt-4 mb-4  p-5 mx-auto logform">
+                                <div class="mx-auto">
+                                    <ul class="nav nav-tabs justify-content-center" id="myTab" role="tablist">
+                                        <li class="nav-item" role="presentation">
+                                          <button class="nav-link active" id="home-tab" data-bs-toggle="tab" data-bs-target="#home-tab-pane" type="button" role="tab" aria-controls="home-tab-pane" aria-selected="true">Log in</button>
+                                        </li>
+                                        <li class="nav-item" role="presentation">
+                                          <button class="nav-link" id="profile-tab" data-bs-toggle="tab" data-bs-target="#profile-tab-pane" type="button" role="tab" aria-controls="profile-tab-pane" aria-selected="false">Sign Up</button>
+                                        </li>
+                                      </ul>
+                                </div>
+                                  <div class="tab-content" id="myTabContent">
+                                    <div class="tab-pane fade show active" id="home-tab-pane" role="tabpanel" aria-labelledby="home-tab" tabindex="0">
+
+                                        <form class="mt-3 p-3 form1">
+                                            <div class="mb-3">
+                                              <label for="exampleInputEmail1" class="form-label">E-mail</label>
+                                              <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="ad.soyad @example.com">
+                                            </div>
+                                            <div class="mb-3">
+                                              <label for="exampleInputPassword1" class="form-label">Şifre</label>
+                                              <input type="password" class="form-control" id="exampleInputPassword1" placeholder="****">
+                                            </div>
+                                            
+                                            <div class="form-group text-center"><button type="submit" class="btn btn-primary mt-4 mb-4">GİRİŞ YAP</button></div>
+                                            <div class="form-group text-center"><p><a href="#"> Şifremi Unuttum</a></p></div>
+                                            <div class="form-group text-center"><p>Veya</p></div>
+                                            <div class="form-group text-center"><button type="button" class="btn btn-block"><i class="fa-brands fa-facebook-f"></i>  Facebook ile oturum açin</button></div>
+                                            
+                                            <div class="container-fluid mb-3 mt-3 div1"></div>
+                                           </form>
+                                    </div>
+
+                                    <div class="tab-pane fade" id="profile-tab-pane" role="tabpanel" aria-labelledby="profile-tab" tabindex="0">
+
+                                        <form class="mt-3 p-3 form2">
+                                            <div class="mb-3">
+                                              <label for="exampleInputEmail1" class="form-label">İsim Soyisim</label>
+                                              <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                                            </div>
+                                            <div class="mb-3">
+                                              <label for="exampleInputPassword1" class="form-label">E-mail Adresi</label>
+                                              <input type="password" class="form-control" id="exampleInputPassword1">
+                                            </div>
+                                            <div class="mb-3">
+                                                <label for="exampleInputPassword1" class="form-label">Şifre</label>
+                                                <input type="password" class="form-control" id="exampleInputPassword1">
+                                              </div>
+                                              <p>Kişisel verileriniz üyelik işlemlerinin gerçekleştirilmesi amacıyla işlenecektir. Kişisel verilerin korunması hakkında detaylı bilgiye buradan ulaşabilirsiniz.
+                                            </p>
+                                            <div class="mb-3 form-check">
+                                              <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                                              <label class="form-check-label" for="exampleCheck1">Vatan Bilgisayara <span>izin veriyorum</span></label>
+                                            </div>
+                                            <div class="form-group text-center"><button type="submit" class="btn btn-primary">ÜYE OL</button></div>
+                                            <div class="container-fluid div1 mb-3 mt-3"></div>
+                                              </form>
+
+                                    </div>
+                                    </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+             <!--Section 9-->
+             <section class="section9">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-2 col-md-6 col-6 div9"><h1 ><span class="material-symbols-outlined ">
+                            archive
+                            </span></h1>
+                        <h5>KARGO BEDAVA</h5></div>
+                        <div class="col-lg-2 col-md-6 col-6 div9"><h1><i class="fa-solid fa-truck-fast"></i></h1>
+                        <h5>STANDART TESLİMAT</h5></div>
+                        <div class="col-lg-2 col-md-6 col-6 div9"><h1><span class="material-symbols-outlined" >
+                            store
+                            </span></h1>
+                        <h5>HIZLI TESLİMAT</h5></div>
+                        <div class="col-lg-2 col-md-6 col-6 div9"><h1><i class="fa-regular fa-calendar-check"></i></i></h1>
+                        <h5>MAĞAZADAN TESLİM</h5></div>
+                        <div class="col-lg-2 col-md-6 col-6 div9"><h1><i class="fa-solid fa-face-smile-beam"></i></h1>
+                        <h5>KOLAY İADE</h5></div>
+                        <div class="col-lg-2 col-md-6 col-6 div9"><h1><i class="fa-solid fa-store"></i></h1>
+                        <h5>TELEFONLA SİPARİŞ</h5></div>
+                    </div>
+                </div>
+            </section>
+
+            <!--Section 10-->
+            <section class="section10">
+                <div class="container">
+                    <div class="row row2 ">
+                        <div class="col-lg col-md-3 col-6 mx-auto"><div class="div10"><img src="img/1.webp">
+                            <p>2+4 Taksit</p></div>
+                        </div>
+                        <div class="col-lg col-md-3 col-6 mx-auto"><div class="div10"><img src="img/maximum-logo.webp">
+                            <p>2+4 Taksit</p></div>
+                        </div>
+                        <div class="col-lg col-md-3 col-6 mx-auto"><div class="div10"><img src="img/3.webp">
+                            <p>2+4 Taksit</p></div>
+                        </div>
+                        <div class="col-lg col-md-3 col-6  mx-auto"><div class="div10"><img src="img/2.webp">
+                            <p>2+4 Taksit</p></div>
+                        </div>
+                        <div class="col-lg col-md-3 col-6  mx-auto"><div class="div10"><img src="img/bankkart-logo.webp">
+                            <p>2+4 Taksit</p></div>
+                        </div>
+                        <div class="col-lg col-md-3 col-6  mx-auto"><div class="div10"><img src="img/4.webp">
+                            <p>2+4 Taksit</p></div>
+                        </div>
+                        <div class="col-lg col-md-3 col-6  mx-auto"><div class="div10"><img src="img/fibabanka-logo-black.webp">
+                            <p>2+4 Taksit</p></div>
+                        </div>
+                        <div class="col-lg col-md-3 col-6  mx-auto"><div class="div10"><img src="img/yapi_kredi_bankasi-min.png">
+                            <p>2+4 Taksit</p></div>
+                        </div>
+                        <div class="col-lg col-md-3 col-6  mx-auto"><div class="div10"><img src="img/tum-kartlar-logo.webp">
+                            <p>2+4 Taksit</p></div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <div class="container div1 hide-on-medium-small"></div>
+
+            <!--Section 11-->
+            <section class="section11">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-2 col-md-12 col-12 mx-auto div11"><h5>Mağazalar:</h5>
+                        <p><a href=""><i class="fa-solid fa-location-dot"></i> Mağaza Bul</a></p></div>
+
+                    
+
+                        <div class="col-lg-3 col-md-12 col-12 mx-auto div11"><h5>Müşteri Hattı:</h5>
+                            <p><i class="fa-solid fa-phone"></i><a href=""> 0850 222 56 56</a></p></div>
+
+                           
+
+                        <div class="col-lg-3 col-md-12 col-12 mx-auto div11"><h5>Sosyal Medya:</h5>
+                                <p class=""><a href="" class="fa"><i class="fa-brands fa-twitter"></i></a>
+                                   <a href="" class="fa"><i class="fa-brands fa-facebook-f"></i></a>
+                                   <a href="" class="fa"><i class="fa-brands fa-youtube"></i></a>
+                                   <a href="" class="fa"><i class="fa-brands fa-instagram"></i></a>
+                                </p></div>
+
+                                
+
+                        <div class="col-lg-4 col-md-12 col-12 mx-auto div11"><h5>İndirmek İçin:</h5>
+                                    <p><a href=""><img src="img/play-store.webp"></a>
+                                       <a href=""><img src="img/app-store.webp"></a>
+                                       <a href=""><img src="img/huawei-appgallery.webp"></a>
+                                    </p></div>
+                    </div>
+                </div>
+            </section>
+
+            <div class="container div1"></div>
+
+            <!--footer-->
+            <section class="footer">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-2 col-md-12 col-12 mx-auto divul">
+                            <div class="col-lg-12 col-md-12 col-12 mx-auto">
+                                <h5 class="h">Vatan Bilgisayar</h5>
+                                <ul class="justify-content-center"><li><a href="#"></a></li>
+                                <li><a href="#">Hakkımızda</a></li>
+                                <li><a href="#">Markalarımız</a></li>
+                                <li><a href="#">İnsan Kaynaklarımız</a></li>
+                                <li><a href="#">Gizlilik Politikamız</a></li>
+                                <li><a href="#">Bilgi Toplum Hizmetleri</a></li>
+                                <li><a href="#">İletişim</a></li>
+                                </ul>
+                            </div> 
+
+                            <div class="col-lg-12 col-md-12 col-12 mx-auto">
+                                <h5 class="h">Müşteri Hizmetleri</h5>
+                                <ul class="justify-content-center"><li><a href="#"></a></li>
+                                <li><a href="#">İşlem Rehberi</a></li>
+                                <li><a href="#">İade ve İptal</a></li>
+                                <li><a href="#">Ödeme Seçenekleri</a></li>
+                                <li><a href="#">Keyifli Garanti</a></li>
+                                <li><a href="#">Servis Takip Formu</a></li>
+                                <li><a href="#">e-Arşiv Fatura</a></li>
+                                <li><a href="#">Outlet</a></li>
+                                </ul>
+                            </div> 
+
+                        </div>
+
+                        <div class="col-lg-5 col-md-12 col-12 mx-auto divul"><h5 class="h">Kategoriler</h5>
+                           <div class="div-f"><div class="col-lg-6 col-md-6 col-6">
+                            <ul><li><a href="#">Vatan Bilgisayar</a></li>
+                                <li><a href="#">Vatan Bilgisayar</a></li>
+                                <li><a href="#">Vatan Bilgisayar</a></li>
+                                <li><a href="#">Vatan Bilgisayar</a></li>
+                                <li><a href="#">Vatan Bilgisayar</a></li>
+                                <li><a href="#">Vatan Bilgisayar</a></li>
+                                <li><a href="#">Vatan Bilgisayar</a></li>
+                                <li><a href="#">Vatan Bilgisayar</a></li>
+                                <li><a href="#">Vatan Bilgisayar</a></li>
+                                <li><a href="#">Vatan Bilgisayar</a></li>
+                                <li><a href="#">Vatan Bilgisayar</a></li>
+                                <li><a href="#">Vatan Bilgisayar</a></li>
+                                <li><a href="#">Vatan Bilgisayar</a></li>
+                                <li><a href="#">Vatan Bilgisayar</a></li>
+                                <li><a href="#">Vatan Bilgisayar</a></li>
+                                <li><a href="#">Vatan Bilgisayar</a></li></ul>
+                        </div>
+                        <div class="col-lg-6 col-md-6 col-6">
+                            <ul><li><a href="#">Vatan Bilgisayar</a></li>
+                                <li><a href="#">Vatan Bilgisayar</a></li>
+                                <li><a href="#">Vatan Bilgisayar</a></li>
+                                <li><a href="#">Vatan Bilgisayar</a></li>
+                                <li><a href="#">Vatan Bilgisayar</a></li>
+                                <li><a href="#">Vatan Bilgisayar</a></li>
+                                <li><a href="#">Vatan Bilgisayar</a></li>
+                                <li><a href="#">Vatan Bilgisayar</a></li>
+                                <li><a href="#">Vatan Bilgisayar</a></li>
+                                <li><a href="#">Vatan Bilgisayar</a></li>
+                                <li><a href="#">Vatan Bilgisayar</a></li>
+                                <li><a href="#">Vatan Bilgisayar</a></li>
+                                <li><a href="#">Vatan Bilgisayar</a></li>
+                                <li><a href="#">Vatan Bilgisayar</a></li>
+                                <li><a href="#">Vatan Bilgisayar</a></li></ul>
+                        </div></div> 
+                            
+                        </div>
+
+                        <div class="col-lg-5 col-md-12 col-12 mx-auto divull"><h5 class="h">Öne Çıkan Ürünler</h5>
+                            <div class="div-f"><div class="col-lg-6 col-md-6 col-6">
+                                <ul><li><a href="#">Vatan Bilgisayar</a></li>
+                                    <li><a href="#">Vatan Bilgisayar</a></li>
+                                    <li><a href="#">Vatan Bilgisayar</a></li>
+                                    <li><a href="#">Vatan Bilgisayar</a></li>
+                                    <li><a href="#">Vatan Bilgisayar</a></li>
+                                    <li><a href="#">Vatan Bilgisayar</a></li>
+                                    <li><a href="#">Vatan Bilgisayar</a></li>
+                                    <li><a href="#">Vatan Bilgisayar</a></li>
+                                    <li><a href="#">Vatan Bilgisayar</a></li>
+                                    <li><a href="#">Vatan Bilgisayar</a></li>
+                                    <li><a href="#">Vatan Bilgisayar</a></li>
+                                    <li><a href="#">Vatan Bilgisayar</a></li>
+                                    <li><a href="#">Vatan Bilgisayar</a></li>
+                                    <li><a href="#">Vatan Bilgisayar</a></li></ul>
+                            </div>
+                            <div class="col-lg-6 col-md-6 col-6">
+                                <ul><li><a href="#">Vatan Bilgisayar</a></li>
+                                    <li><a href="#">Vatan Bilgisayar</a></li>
+                                    <li><a href="#">Vatan Bilgisayar</a></li>
+                                    <li><a href="#">Vatan Bilgisayar</a></li>
+                                    <li><a href="#">Vatan Bilgisayar</a></li>
+                                    <li><a href="#">Vatan Bilgisayar</a></li>
+                                    <li><a href="#">Vatan Bilgisayar</a></li>
+                                    <li><a href="#">Vatan Bilgisayar</a></li>
+                                    <li><a href="#">Vatan Bilgisayar</a></li>
+                                    <li><a href="#">Vatan Bilgisayar</a></li>
+                                    <li><a href="#">Vatan Bilgisayar</a></li>
+                                    <li><a href="#">Vatan Bilgisayar</a></li>
+                                    <li><a href="#">Vatan Bilgisayar</a></li>
+                                    <li><a href="#">Vatan Bilgisayar</a></li></ul>
+                            </div></div>
+
+                        </div>
+                        
+                    </div>
+                </div>
+            </section>
+
+            <div class="container div1"></div>
+
+            <!--footer 2-->
+            <section class="footer2">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-1 col-md-4 col-12"><a href="">Site Haritası</a></div>
+                        <div class="col-lg-2 col-md-4 col-12"><a href="">Gizlilik Politikamız</a></div>
+                        <div class="col-lg-1 col-md-4 col-12"><a href="">SSS</a></div>
+                        <div class="col-lg-3 col-md-4 col-12"><a href="">Kişisel Verilerin Korunması Kanunu</a></div>
+                        <div class="col-lg-1 col-md-4 col-12"><a href="">Sitemap</a></div>
+                        <div class="col-lg-4 col-md-4 col-12"><img src="img/payment-types.webp" class="img-responsive"></div>
+                    </div>
+                </div>
+            </section>
+
+            <!--footer 3-->
+            <section class="footer3">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-12 col-md-12 col-12">
+                            <p class="p2">Vatan Bilgisayar 1983 Yılında Elmadağ’da açtığı mağaza ile Türkiye’nin ilk bilgisayar mağazası unvanını taşımaktadır. 10 yılı aşkın süredir online alışveriş sitesi vatanbilgisayar.com ile Türkiye’nin her noktasında milyonlarca müşteriye ulaşmaktadır. Dünyaca ünlü teknoloji markalarının binlerce ürün çeşidiyle her bütçe ve tarza hitap ediyoruz.
+                                <a href="#">DEVAMINI GÖR</a></p>
+                        </div>
+                        <div class="col-lg-12 col-md-12 col-12"><a href="#"><img src="img/download.jpeg"></a></div>
+                        <div class="col-lg-12 col-md-12 col-12"><p class="p3">Copyright © 2020 Vatan Bilgisayar San. ve Tic. A.Ş</p></div>
+                    </div>
+                    
+                </div>
+            </section>
+
+            <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+
+            <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+            <!--jquery cdn-->
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+            <!--owl Carousel min .js-->
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+</body>
+</html>                
